@@ -1,0 +1,9 @@
+Package: dev.amygrace.nukedock
+Name: NukeDock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Nuke the dock background!
+Maintainer: Amy
+Author: Amy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
