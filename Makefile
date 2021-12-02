@@ -4,7 +4,11 @@ INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
 
-ARCHS = arm64 arm64e
+ARCHS = arm64
+
+ifneq ($(USER), gitpod)
+ARCHS += arm64e
+endif
 
 SDKVERSION=12.2
 
