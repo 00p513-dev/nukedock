@@ -6,9 +6,9 @@ include $(THEOS)/makefiles/common.mk
 
 ARCHS = arm64
 
-ifneq ($(USER), gitpod)
+#ifneq ($(USER), gitpod)
 ARCHS += arm64e
-endif
+#endif
 
 SDKVERSION=12.2
 
